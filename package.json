@@ -1,0 +1,31 @@
+{
+  "name": "contactmanagementsystem",
+  "version": "1.0.0",
+  "description": "A NodeJS Assignment for 10X Assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjrajujha/ContactManagementSystem.git"
+  },
+  "author": "Raju Jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjrajujha/ContactManagementSystem/issues"
+  },
+  "homepage": "https://github.com/rjrajujha/ContactManagementSystem#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  }
+}
